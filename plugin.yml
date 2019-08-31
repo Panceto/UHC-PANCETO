@@ -1,0 +1,35 @@
+name: UHC-1.8
+version: 1.4.1
+author: Thomaz2Fast
+
+main: com.thomaztwofast.uhc.Main
+
+api-version: 1.13
+
+commands:
+  autoteam:
+    description: Set all online players to random teams.
+    usage: /autoteam
+    permission: com.thomaztwofast.uhc.commands.autoteam
+  chunkloader:
+    description: Load all the chunk in the arena by spesific size.
+    usage: /chunkloader <start|stop>
+    permission: com.thomaztwofast.uhc.commands.chunkloader
+  selectteam:
+    description: Give player a item to they can select team.
+    usage: /selectteam
+    permission: com.thomaztwofast.uhc.commands.selectteam
+  start:
+    description: Start Ultra Hardcore game.
+    usage: /start <uhc>
+    permission: com.thomaztwofast.uhc.commands.start
+  uhc:
+    description: Ultra Hardcore 1.8 plugin info.
+    usage: /uhc <help | menu | settings | status>
+    permission: com.thomaztwofast.uhc.commands.uhc
+
+permissions:
+  com.thomaztwofast.uhc.commands.*:
+    default: OP
+  com.thomaztwofast.uhc.commands.selectteam:
+    default: true

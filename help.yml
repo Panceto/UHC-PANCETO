@@ -1,0 +1,45 @@
+i:
+  t: ULTRA HARDCORE 1.8 - HELP
+  p:
+    '1':
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+h:
+  '0':
+    t: How to enable this plugin?
+    d:
+    - Open the config file.
+    - Find ++Plugin.Enabled++.
+    - Set boolean value to ++true++.
+    - Save the config file and restart your server.
+  '1':
+    t: How to enable command /chunkloader?
+    d:
+    - Open the config file.
+    - Find ++Plugin.Enabled++.
+    - Set boolean value to ++false++.
+    - Save the config file and restart your server.
+  '2':
+    t: How to enable /autoteam or /selectteam commands?
+    d:
+    - Open the config file.
+    - Make sure the plugin mode is enabled.
+    - Make sure the server mode is disabled.
+    - Find ++Game.TeamMode++.
+    - Set boolean value to ++true++.
+    - Save the config file and restart your server.
+  '3':
+    t: How to enable Server Mode?
+    d:
+    - Open the config file.
+    - Make sure the plugin mode is enabled.
+    - Find ++ServerMode.Enabled++.
+    - Set boolean value to ++true++.
+    - Save the config file and start your server.
+  '4':
+    t: Players cannot join? Server say loading....
+    d:
+    - Plugin is loading / generate chunks in the arena.
